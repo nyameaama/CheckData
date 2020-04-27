@@ -2,6 +2,7 @@
 #define READ_IN
 
 #include<string>
+#include<iostream>
 
 class Terminal_read {
     public:

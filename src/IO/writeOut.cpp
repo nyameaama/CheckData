@@ -4,10 +4,10 @@ void writeOut::createProgramDir(){
 
 }
 
-uint8_t writeOut::file_open(std::string fileName){
+uint8_t writeOut::file_open(std::string filePath){
     std::string content;
     std::ofstream file;
-    file.open(fileName,std::ios::out);
+    file.open(filePath,std::ios::out);
     if(file.is_open()){
         return 1;
     }else{
