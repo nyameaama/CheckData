@@ -15,6 +15,8 @@ int main(){
     get.fileWrite(Ttext);
     get.file_Read();
     system("clear");
+    tx.resultTextPrompt();
+    
     
 
 }

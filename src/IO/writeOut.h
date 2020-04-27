@@ -17,8 +17,8 @@ class writeOut {
         writeOut();
 
         //Destructor
-        ~writeOut();
-        
+        //~writeOut();
+
         //Function to create folder for program resources
         void createProgramDir();
 
