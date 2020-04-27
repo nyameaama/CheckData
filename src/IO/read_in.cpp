@@ -14,3 +14,8 @@ void Terminal_read::BeginTextPrompt(){
     std::string txt = "Enter block of text:";
     std::cout << txt << std::endl;
 }
+
+void Terminal_read::resultTextPrompt(){
+    std::string txt = "Formatted text:";
+    std::cout << txt << std::endl;
+}

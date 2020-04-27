@@ -13,6 +13,12 @@ class writeOut {
     const char *path = "home/user/documents";
     std::fstream file;
     public:
+        //Constructor
+        writeOut();
+
+        //Destructor
+        ~writeOut();
+        
         //Function to create folder for program resources
         void createProgramDir();
 
@@ -23,7 +29,7 @@ class writeOut {
         std::string file_Read();
     
         //Function to write to file
-        uint8_t fileWrite();
+        uint8_t fileWrite(std::string x);
 
 };
 

@@ -1,5 +1,13 @@
 #include"writeOut.h"
 
+writeOut::writeOut(){
+    file_open(path,OUT);
+}
+
+/*writeOut::~writeOut(){
+    remove(path);
+}*/
+
 void writeOut::createProgramDir(){
     
 }
@@ -33,9 +41,14 @@ std::string writeOut::file_Read(){
             break;
         }
     }
+    file.close();
     return content;
 }
 
-uint8_t writeOut::fileWrite(){
-
+uint8_t writeOut::fileWrite(std::string x){
+    std::string fileName;
+    file_open(fileName,OUT);
+    file << x;
+    file.close();
+    return;
 }
