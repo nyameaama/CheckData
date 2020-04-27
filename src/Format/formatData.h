@@ -2,11 +2,14 @@
 #define FORMAT
 
 #include<string>
+#include<ctype.h>
+#include<stdlib.h>
 
 class formatData {
     public:
-        formatData(std::string x);
+        std::string FormatData(std::string x);
 
+        uint8_t doubleSpaceCheck(std::string *content);
 
 };
 

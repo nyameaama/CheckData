@@ -3,7 +3,7 @@
 
 #include<fstream>
 #include"../Pref/getOS.h"
-#include<unistd.h>
+//#include<unistd.h>
 
 #define OS OperatingS
 #define IN 0
